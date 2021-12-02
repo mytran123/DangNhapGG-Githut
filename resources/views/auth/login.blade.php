@@ -70,6 +70,10 @@
                                             <a href="{{ url('/auth/redirect/google') }}" class="btn btn-primary"><i
                                                     class="fa fa-google"></i> Google</a>
                                         </div>
+                                        <div class="col-md-8 offset-md-4">
+                                            <a href="{{ url('/auth/redirect/github') }}" class="btn btn-primary"><i
+                                                    class="fa fa-google"></i> Github</a>
+                                        </div>
                                     </div>
                                     @if (Route::has('password.request'))
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
